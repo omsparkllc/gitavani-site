@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitaVani Social Card</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html, body {
+            width: 1200px;
+            height: 630px;
+            overflow: hidden;
+        }
+
+        body {
+            background: #FFFDF7;
+            color: #2C2C2C;
+            font-family: Georgia, 'Times New Roman', serif;
+            padding: 90px 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .top {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .om {
+            width: 130px;
+            height: 130px;
+            border-radius: 28px;
+            background: #F5F0E8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 90px;
+            color: #C4841D;
+            line-height: 1;
+        }
+
+        .brand {
+            font-size: 60px;
+            font-weight: 700;
+            color: #1a1a1a;
+            letter-spacing: -0.01em;
+        }
+
+        .tagline {
+            font-size: 36px;
+            font-style: italic;
+            color: #8B7355;
+            margin-top: 36px;
+        }
+
+        .features {
+            font-size: 24px;
+            color: #4A4A4A;
+            margin-top: 32px;
+            line-height: 1.55;
+            max-width: 940px;
+        }
+
+        .features strong {
+            color: #1a1a1a;
+            font-weight: 700;
+        }
+
+        .bottom {
+            font-size: 18px;
+            color: #8B7355;
+            border-top: 1px solid #E8E0D0;
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .by .name { color: #1a1a1a; font-weight: 700; }
+        .hub { color: #C4841D; font-weight: 600; }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="top">
+            <div class="om">&#2384;</div>
+            <span class="brand">GitaVani</span>
+        </div>
+        <p class="tagline">Voice of the Gita</p>
+        <p class="features">
+            An ad-free Bhagavad Gita reader. <strong>701 verses</strong>, Sanskrit audio, translations from <strong>12 scholars</strong>, commentaries from <strong>17 scholars</strong>.
+        </p>
+    </div>
+    <div class="bottom">
+        <span class="by">Built by <span class="name">Nikhil Singhal</span></span>
+        <span class="hub">nikhilsinghal.com</span>
+    </div>
+</body>
+</html>
